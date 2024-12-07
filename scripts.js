@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("Website loaded!");
+    console.log("THIS SITE HAS LOADED!");
 });
