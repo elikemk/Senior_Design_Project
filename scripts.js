@@ -1,3 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("THIS SITE HAS LOADED!");
+    const button = document.getElementById('');
+    if(button) {
+        button.addEventListener('click',() => {
+            console.log('Redirecting...');
+            window.location.href = 'index.html';
+        })
+    }
 });
